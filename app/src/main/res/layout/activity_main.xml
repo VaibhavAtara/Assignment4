@@ -8,7 +8,7 @@
     android:layout_centerInParent="true"
     android:layout_gravity="center"
     android:gravity="center"
-    android:background="#66cdaa"
+    android:background="@drawable/custom_background"
     tools:context=".MainActivity">
 
 
@@ -16,7 +16,7 @@
         android:id="@+id/location"
         android:text="LOCATION"
         android:textSize="24sp"
-        android:background="#a0522d"
+        android:background="@drawable/custom_button"
         android:textColor="@android:color/white"
         android:padding="6dp"
         android:layout_width="250dp"
@@ -26,7 +26,7 @@
     <Button
         android:id="@+id/accelerometer"
         android:text="ACCELEROMETER"
-        android:background="#a0522d"
+        android:background="@drawable/custom_button"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginTop="10dp"
@@ -37,7 +37,7 @@
     <Button
         android:id="@+id/gyrometer"
         android:text="GYROMETER"
-        android:background="#a0522d"
+        android:background="@drawable/custom_button"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginTop="10dp"
@@ -49,7 +49,7 @@
     <Button
         android:id="@+id/magnometer"
         android:text="MAGNOMETER"
-        android:background="#a0522d"
+        android:background="@drawable/custom_button"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginTop="10dp"
@@ -61,7 +61,7 @@
     <Button
         android:id="@+id/light"
         android:text="ILLUMINANCE"
-        android:background="#a0522d"
+        android:background="@drawable/custom_button"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginTop="10dp"
@@ -72,7 +72,7 @@
     <Button
         android:id="@+id/proximity"
         android:text="PROXIMITY"
-        android:background="#a0522d"
+        android:background="@drawable/custom_button"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginTop="10dp"

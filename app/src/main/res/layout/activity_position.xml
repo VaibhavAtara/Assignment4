@@ -8,14 +8,14 @@
     android:layout_centerInParent="true"
     android:layout_gravity="center"
     android:gravity="center"
-    android:background="#66cdaa"
+    android:background="@drawable/custom_background"
     tools:context=".Position">
 
 
     <Button
         android:id="@+id/location_button"
         android:text="GET LOCATION"
-        android:background="#a0522d"
+        android:background="@drawable/custom_button"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:paddingLeft="8dp"
@@ -29,7 +29,7 @@
         android:gravity="center"
         android:padding="6dp"
         android:textSize="24sp"
-        android:textAppearance="@android:color/white"
+        android:textAppearance="@android:color/black"
         android:textStyle="bold"
         android:text="Co-ordinates"
         android:layout_width="wrap_content"
@@ -38,7 +38,7 @@
     <Button
         android:id="@+id/map_button"
         android:text="SHOW IN MAPS"
-        android:background="#a0522d"
+        android:background="@drawable/custom_button"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginTop="10dp"
@@ -50,7 +50,7 @@
     <Button
         android:id="@+id/share"
         android:text="SHARE"
-        android:background="#a0522d"
+        android:background="@drawable/custom_button"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginTop="10dp"

@@ -8,7 +8,7 @@
     android:layout_centerInParent="true"
     android:layout_gravity="center"
     android:gravity="center"
-    android:background="#66cdaa"
+    android:background="@drawable/custom_background"
     tools:context=".proximity">
 
 
@@ -19,7 +19,7 @@
         android:textStyle="bold"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
-        android:background="#a0522d"
+        android:background="@drawable/custom_button"
         android:textColor="@android:color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -31,7 +31,7 @@
         android:textStyle="bold"
         android:layout_gravity="center"
         android:gravity="center"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
