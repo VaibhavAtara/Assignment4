@@ -8,71 +8,77 @@
     android:layout_centerInParent="true"
     android:layout_gravity="center"
     android:gravity="center"
-    android:background="@android:color/holo_blue_light"
+    android:background="#66cdaa"
     tools:context=".MainActivity">
 
 
     <Button
         android:id="@+id/location"
         android:text="LOCATION"
-        android:background="@android:color/holo_orange_light"
         android:textSize="24sp"
+        android:background="#a0522d"
+        android:textColor="@android:color/white"
         android:padding="6dp"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"/>
 
 
     <Button
         android:id="@+id/accelerometer"
         android:text="ACCELEROMETER"
-        android:background="@android:color/holo_orange_light"
+        android:background="#a0522d"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginTop="10dp"
         android:padding="6dp"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/gyrometer"
         android:text="GYROMETER"
-        android:background="@android:color/holo_orange_light"
+        android:background="#a0522d"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginTop="10dp"
         android:padding="6dp"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"/>
 
 
     <Button
         android:id="@+id/magnometer"
         android:text="MAGNOMETER"
-        android:background="@android:color/holo_orange_light"
+        android:background="#a0522d"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginTop="10dp"
         android:padding="6dp"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"/>
 
 
     <Button
         android:id="@+id/light"
         android:text="ILLUMINANCE"
-        android:background="@android:color/holo_orange_light"
+        android:background="#a0522d"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginTop="10dp"
         android:padding="6dp"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/proximity"
         android:text="PROXIMITY"
-        android:background="@android:color/holo_orange_light"
+        android:background="#a0522d"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginTop="10dp"
         android:padding="6dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
 
 
 

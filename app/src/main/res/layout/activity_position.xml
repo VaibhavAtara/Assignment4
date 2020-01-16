@@ -8,16 +8,18 @@
     android:layout_centerInParent="true"
     android:layout_gravity="center"
     android:gravity="center"
-    android:background="@android:color/holo_blue_light"
+    android:background="#66cdaa"
     tools:context=".Position">
 
 
     <Button
         android:id="@+id/location_button"
         android:text="GET LOCATION"
-        android:background="@android:color/holo_orange_light"
+        android:background="#a0522d"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
-        android:padding="6dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
@@ -27,7 +29,7 @@
         android:gravity="center"
         android:padding="6dp"
         android:textSize="24sp"
-        android:textAppearance="@android:color/holo_orange_light"
+        android:textAppearance="@android:color/white"
         android:textStyle="bold"
         android:text="Co-ordinates"
         android:layout_width="wrap_content"
@@ -36,20 +38,24 @@
     <Button
         android:id="@+id/map_button"
         android:text="SHOW IN MAPS"
-        android:background="@android:color/holo_orange_light"
+        android:background="#a0522d"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginTop="10dp"
-        android:padding="6dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/share"
         android:text="SHARE"
-        android:background="@android:color/holo_orange_light"
+        android:background="#a0522d"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
         android:layout_marginTop="10dp"
-        android:padding="6dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 

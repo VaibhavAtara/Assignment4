@@ -8,7 +8,7 @@
     android:layout_centerInParent="true"
     android:layout_gravity="center"
     android:gravity="center"
-    android:background="@android:color/holo_blue_light"
+    android:background="#66cdaa"
     tools:context=".Accelerometer">
 
 
@@ -17,8 +17,11 @@
         android:text="ACCELEROMETER"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@android:color/holo_orange_dark"
+        android:background="#a0522d"
+        android:textColor="@android:color/white"
         android:layout_width="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:layout_height="wrap_content"/>
     <TextView
     android:id="@+id/xvalue"
@@ -28,7 +31,7 @@
     android:textStyle="bold"
     android:layout_gravity="center"
     android:gravity="center"
-    android:textColor="@android:color/holo_orange_dark"
+    android:textColor="@android:color/white"
     android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
@@ -40,7 +43,7 @@
         android:textStyle="bold"
         android:layout_gravity="center"
         android:gravity="center"
-        android:textColor="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
@@ -53,7 +56,7 @@
         android:textStyle="bold"
         android:layout_gravity="center"
         android:gravity="center"
-        android:textColor="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
