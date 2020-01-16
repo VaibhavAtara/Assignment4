@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/location"
+        android:text="LOCATION"
+        android:background="@android:color/holo_orange_light"
+        android:textSize="24sp"
+        android:padding="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/accelerometer"
+        android:text="ACCELEROMETER"
+        android:background="@android:color/holo_orange_light"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/gyrometer"
+        android:text="GYROMETER"
+        android:background="@android:color/holo_orange_light"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/magnometer"
+        android:text="MAGNOMETER"
+        android:background="@android:color/holo_orange_light"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/light"
+        android:text="ILLUMINANCE"
+        android:background="@android:color/holo_orange_light"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/proximity"
+        android:text="PROXIMITY"
+        android:background="@android:color/holo_orange_light"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
