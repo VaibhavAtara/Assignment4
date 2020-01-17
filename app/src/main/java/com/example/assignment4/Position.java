@@ -76,11 +76,25 @@ public class Position extends AppCompatActivity {
         share_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent sendIntent = new Intent();
-                sendIntent.setAction(Intent.ACTION_SEND);
-                sendIntent.putExtra(Intent.EXTRA_TEXT, "Location:"+lat+","+log);
-                sendIntent.setType("text/plain");
-                startActivity(sendIntent);
+                //Intent sendIntent = new Intent();
+                //sendIntent.setAction(Intent.ACTION_SEND);
+                //sendIntent.putExtra(Intent.EXTRA_TEXT, "Location:"+lat+","+log);
+                //sendIntent.setType("text/plain");
+                //***********************************
+
+                //sendIntent.putExtra(Intent.CATEGORY_APP_MAPS,"geo:"+lat+","+log);
+                //sendIntent.setType("text/plain");
+
+                String uri = "http://maps.google.com/maps?z=24&q=" +lat+","+log;
+                Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+                sharingIntent.setType("text/plain");
+                String ShareSub = "Here is my location";
+                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, ShareSub);
+                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, uri);
+                startActivity(Intent.createChooser(sharingIntent, "Share via"));
+
+                //**********************************
+                //startActivity(sendIntent);
                 //share_button.setVisibility(View.GONE);
             }
         });
